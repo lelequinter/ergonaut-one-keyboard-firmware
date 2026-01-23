@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: ergonaut_one}
 layers:
   MAIN:
-  - {t: ']', h: Gui}
+  - {t: ↹, h: LEFT ALT}
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - '['
+  - {t: '''', h: RIGHT ALT}
   - {t: ESCAPE, h: Ctrl}
   - A
   - S
@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: Alt}
+  - {t: /, h: RIGHT SHIFT}
   - LEFT WIN
   - {t: Numbers - controls, h: toggle}
   - {t: ␣, h: '4'}
