@@ -2,6 +2,9 @@
 
 This is a repository for a ZMK Firmware for Ergonaut One keyboard.
 
+## Notes for me:
+- I had to do this in order to make the build work [Pin your ZMK version](https://zmk.dev/blog/2025/06/20/pinned-zmk)
+
 ## Default keymap
 
 Visual representation of the default keymap in keyboard-layout-editor: [KLE](http://www.keyboard-layout-editor.com/#/gists/13d0f7ae7a8b5835efcd23d61f50336a)
