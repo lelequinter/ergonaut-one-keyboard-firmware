@@ -28,7 +28,7 @@
         default_layer {
             display-name = "MAIN";
             bindings = <
-&mt LEFT_ALT TAB  &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y      &kp U  &kp I          &kp O    &kp P     &mt RIGHT_ALT KP_MINUS
+&mt LEFT_ALT TAB  &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y      &kp U  &kp I          &kp O    &kp P     &mt RIGHT_ALT MINUS
 &mt LCTRL ESCAPE  &kp A  &kp S  &kp D         &kp F  &kp G        &kp H      &kp J  &kp K          &kp L    &kp SEMI  &mt RCTRL SQT
 &kp LEFT_SHIFT    &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N      &kp M  &kp COMMA      &kp DOT  &kp FSLH  &mt RIGHT_SHIFT KP_DIVIDE
                                 &kp LEFT_WIN  &mo 1  &lt 4 SPACE  &kp ENTER  &mo 2  &kp BACKSPACE
@@ -38,7 +38,7 @@
         lower_layer {
             display-name = "Numbers - controls";
             bindings = <
-&trans  &kp NUMBER_1      &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp RIGHT_BRACKET
+&trans  &kp NUMBER_1      &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp RIGHT_BRACE
 &trans  &kp C_PLAY_PAUSE  &none           &none         &none         &kp C_VOLUME_UP  &kp LEFT      &kp DOWN      &kp UP        &kp DOWN      &kp HOME      &kp END
 &trans  &none             &kp C_PREVIOUS  &kp C_NEXT    &kp K_MUTE    &kp C_VOL_DN     &kp DELETE    &none         &trans        &trans        &trans        &trans
                                           &trans        &trans        &trans           &trans        &mo 3         &trans
@@ -48,10 +48,10 @@
         raise_layer {
             display-name = "Symbols";
             bindings = <
-&kp PIPE      &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &kp SLASH         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &kp LS(EQUAL)
-&trans        &none            &none              &none     &none       &none        &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE  &kp GRAVE
-&kp CAPSLOCK  &none            &none              &none     &none       &none        &kp QUESTION   &kp ASTERISK      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CARET  &kp NON_US_BACKSLASH
-                                                  &trans    &mo 3       &trans       &trans         &trans            &trans
+&kp RA(NUMBER_1)  &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET      &kp AMPERSAND          &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp EQUAL             &kp LS(EQUAL)
+&trans            &none            &none   &none     &none       &none        &kp GRAVE      &kp LS(GRAVE)          &kp RA(SINGLE_QUOTE)  &kp RA(NON_US_HASH)    &kp RA(SEMICOLON)     &kp LEFT_BRACKET
+&kp CAPSLOCK      &none            &none   &none     &none       &none        &kp LS(MINUS)  &kp LS(RIGHT_BRACKET)  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp LS(LEFT_BRACKET)  &kp RA(GRAVE)
+                                           &trans    &mo 3       &trans       &trans         &trans                 &trans
             >;
         };
 
@@ -70,7 +70,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans        &trans           &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans        &trans           &trans  &trans
-                        &trans  &trans  &trans  &trans          &trans          &trans
+                        &trans  &trans  &trans  &mkp LCLK       &trans          &mkp RCLK
             >;
         };
     };

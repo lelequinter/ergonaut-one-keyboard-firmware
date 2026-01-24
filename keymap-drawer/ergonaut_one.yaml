@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {t: KP MINUS, h: RIGHT ALT}
+  - {t: '-', h: RIGHT ALT}
   - {t: ESCAPE, h: Ctrl}
   - A
   - S
@@ -55,7 +55,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ']'
+  - '}'
   - {t: ▽, type: trans}
   - PLAY PAUSE
   - ''
@@ -87,16 +87,16 @@ layers:
   - ADJ
   - {t: ▽, type: trans}
   Symbols:
-  - '|'
+  - AltGr+1
   - '!'
-  - '"'
+  - '@'
   - '#'
   - $
   - '%'
+  - ^
   - '&'
-  - /
+  - '*'
   - (
-  - )
   - '='
   - Sft+=
   - {t: ▽, type: trans}
@@ -105,24 +105,24 @@ layers:
   - ''
   - ''
   - ''
-  - <
-  - '>'
-  - '{'
-  - '}'
-  - '~'
   - '`'
+  - Sft+`
+  - AltGr+'
+  - AltGr+#
+  - AltGr+;
+  - '['
   - CAPSLOCK
   - ''
   - ''
   - ''
   - ''
   - ''
-  - '?'
-  - '*'
-  - '['
-  - ']'
-  - ^
-  - \
+  - Sft+-
+  - Sft+]
+  - AltGr+[
+  - AltGr+]
+  - Sft+[
+  - AltGr+`
   - {t: ▽, type: trans}
   - ADJ
   - {t: ▽, type: trans}
@@ -212,6 +212,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - Left Click
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Right Click
