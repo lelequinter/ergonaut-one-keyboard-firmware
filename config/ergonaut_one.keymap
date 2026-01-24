@@ -12,6 +12,13 @@
 
 &mt { quick-tap-ms = <200>; };
 
+&msc {
+    trigger-period-ms = <0>;
+    delay-ms = <0>;
+    time-to-max-speed-ms = <1000>;
+    acceleration-exponent = <1>;
+};
+
 / {
     conditional_layers {
         compatible = "zmk,conditional-layers";
