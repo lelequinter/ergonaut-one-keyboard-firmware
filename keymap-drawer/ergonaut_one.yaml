@@ -39,7 +39,7 @@ layers:
   - {t: KP DIVIDE, h: RIGHT SHIFT}
   - LEFT WIN
   - Numbers - controls
-  - {t: ␣, h: '4'}
+  - {t: ␣, h: Mouse}
   - ENTER
   - Symbols
   - BACKSPACE
@@ -84,7 +84,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ADJ
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Symbols:
   - AltGr+1
@@ -160,7 +160,7 @@ layers:
   - ''
   - ''
   - Boot
-  - ''
+  - Boot
   - ''
   - ''
   - ''
@@ -172,7 +172,7 @@ layers:
   - ''
   - {type: held}
   - {t: ▽, type: trans}
-  '4':
+  Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
