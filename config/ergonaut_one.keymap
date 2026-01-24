@@ -17,7 +17,10 @@
     flavor = "tap-preferred";
 };
 
-&msc { acceleration-exponent = <100>; };
+&msc {
+    acceleration-exponent = <100>;
+    time-to-max-speed-ms = <0>;
+};
 
 / {
     conditional_layers {
