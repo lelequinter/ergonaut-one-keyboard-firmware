@@ -58,9 +58,9 @@ layers:
   - ']'
   - {t: ▽, type: trans}
   - PLAY PAUSE
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - VOLUME UP
   - ←
   - ↓
@@ -181,7 +181,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Mouse ↑
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -194,6 +193,7 @@ layers:
   - {t: ▽, type: trans}
   - Mouse ←
   - Mouse ↓
+  - Mouse ↑
   - Mouse →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
