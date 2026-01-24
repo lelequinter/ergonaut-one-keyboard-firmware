@@ -65,7 +65,7 @@ layers:
   - ←
   - ↓
   - ↑
-  - ↓
+  - →
   - Home
   - End
   - {t: ▽, type: trans}
@@ -124,7 +124,7 @@ layers:
   - Sft+[
   - AltGr+`
   - {t: ▽, type: trans}
-  - ADJ
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
