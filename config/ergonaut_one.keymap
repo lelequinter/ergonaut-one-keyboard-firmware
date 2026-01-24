@@ -48,7 +48,7 @@
             bindings = <
 &mt LEFT_ALT TAB  &kp Q           &kp W           &kp E               &kp R                   &kp T        &kp Y      &kp U                    &kp I                &kp O            &kp P               &mt RIGHT_ALT MINUS
 &mt LCTRL ESCAPE  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &hold_tap LEFT_SHIFT F  &kp G        &kp H      &hold_tap RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMI  &mt RCTRL SQT
-&kp LEFT_SHIFT    &kp Z           &kp X           &kp C               &kp V                   &kp B        &kp N      &kp M                    &kp COMMA            &kp DOT          &kp FSLH            &mt RIGHT_SHIFT KP_DIVIDE
+&kp LEFT_SHIFT    &kp Z           &kp X           &kp C               &kp V                   &kp B        &kp N      &kp M                    &kp COMMA            &kp DOT          &kp FSLH            &hold_tap RIGHT_SHIFT KP_DIVIDE
                                                   &kp LEFT_WIN        &mo 1                   &lt 4 SPACE  &kp ENTER  &mo 2                    &kp BACKSPACE
             >;
         };
