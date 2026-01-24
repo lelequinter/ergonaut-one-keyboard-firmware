@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {t: '''', h: RIGHT ALT}
+  - {t: KP MINUS, h: RIGHT ALT}
   - {t: ESCAPE, h: Ctrl}
   - A
   - S
@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - /
-  - {t: /, h: RIGHT SHIFT}
+  - {t: KP DIVIDE, h: RIGHT SHIFT}
   - LEFT WIN
   - Numbers - controls
   - {t: ␣, h: '4'}
@@ -55,7 +55,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - +
+  - ']'
   - {t: ▽, type: trans}
   - PLAY PAUSE
   - ''

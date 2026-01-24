@@ -28,9 +28,9 @@
         default_layer {
             display-name = "MAIN";
             bindings = <
-&mt LEFT_ALT TAB  &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y      &kp U  &kp I          &kp O    &kp P     &mt RIGHT_ALT SINGLE_QUOTE
+&mt LEFT_ALT TAB  &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y      &kp U  &kp I          &kp O    &kp P     &mt RIGHT_ALT KP_MINUS
 &mt LCTRL ESCAPE  &kp A  &kp S  &kp D         &kp F  &kp G        &kp H      &kp J  &kp K          &kp L    &kp SEMI  &mt RCTRL SQT
-&kp LEFT_SHIFT    &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N      &kp M  &kp COMMA      &kp DOT  &kp FSLH  &mt RIGHT_SHIFT SLASH
+&kp LEFT_SHIFT    &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N      &kp M  &kp COMMA      &kp DOT  &kp FSLH  &mt RIGHT_SHIFT KP_DIVIDE
                                 &kp LEFT_WIN  &mo 1  &lt 4 SPACE  &kp ENTER  &mo 2  &kp BACKSPACE
             >;
         };
@@ -38,7 +38,7 @@
         lower_layer {
             display-name = "Numbers - controls";
             bindings = <
-&trans  &kp NUMBER_1      &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp PLUS
+&trans  &kp NUMBER_1      &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp RIGHT_BRACKET
 &trans  &kp C_PLAY_PAUSE  &none           &none         &none         &kp C_VOLUME_UP  &kp LEFT      &kp DOWN      &kp UP        &kp DOWN      &kp HOME      &kp END
 &trans  &none             &kp C_PREVIOUS  &kp C_NEXT    &kp K_MUTE    &kp C_VOL_DN     &kp DELETE    &none         &trans        &trans        &trans        &trans
                                           &trans        &trans        &trans           &trans        &mo 3         &trans
