@@ -38,10 +38,10 @@ layers:
   - /
   - {t: /, h: RIGHT SHIFT}
   - LEFT WIN
-  - {t: Numbers - controls, h: toggle}
+  - Numbers - controls
   - {t: ␣, h: '4'}
   - ENTER
-  - {t: Symbols, h: toggle}
+  - Symbols
   - BACKSPACE
   Numbers - controls:
   - {t: ▽, type: trans}
@@ -69,7 +69,7 @@ layers:
   - Home
   - End
   - {t: ▽, type: trans}
-  - Scroll ↓
+  - ''
   - PREVIOUS
   - ⏭️
   - MUTE
@@ -81,10 +81,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ADJ, h: toggle}
+  - ADJ
   - {t: ▽, type: trans}
   Symbols:
   - '|'
@@ -124,10 +124,10 @@ layers:
   - ^
   - \
   - {t: ▽, type: trans}
-  - {t: ADJ, h: toggle}
+  - ADJ
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   ADJ:
   - F1
@@ -167,10 +167,10 @@ layers:
   - ''
   - Reset
   - {t: ▽, type: trans}
-  - ''
+  - {type: held}
   - {t: ▽, type: trans}
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   '4':
   - {t: ▽, type: trans}
