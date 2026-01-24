@@ -55,7 +55,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '}'
+  - ']'
   - {t: ▽, type: trans}
   - PLAY PAUSE
   - ''
@@ -90,23 +90,23 @@ layers:
   - AltGr+1
   - '!'
   - '@'
-  - '#'
+  - AltGr+3
   - $
   - '%'
   - ^
   - '&'
   - '*'
   - (
+  - Sft+0
   - '='
-  - Sft+=
   - {t: ▽, type: trans}
   - ''
   - ''
   - ''
   - ''
   - ''
-  - '`'
-  - Sft+`
+  - \
+  - Sft+\
   - AltGr+'
   - AltGr+#
   - AltGr+;
