@@ -3,7 +3,8 @@
 This is a repository for a ZMK Firmware for Ergonaut One keyboard.
 
 ## Notes for me:
-- I had to do this in order to make the build work [Pin your ZMK version](https://zmk.dev/blog/2025/06/20/pinned-zmk)
+- I had to do this in order to make the build work [Pin your ZMK version](https://zmk.dev/blog/2025/06/20/pinned-zmk).
+- Spanish keycodes can be found [here](https://github.com/qmk/qmk_firmware/blob/master/quantum/keymap_extras/keymap_spanish.h) (from the QMK documentation). So I know what keycodes I should use for the keymap.
 
 ## Default keymap
 
