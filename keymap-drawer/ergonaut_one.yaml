@@ -58,9 +58,9 @@ layers:
   - ']'
   - {t: ▽, type: trans}
   - PLAY PAUSE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PREVIOUS
+  - PLAY PAUSE
+  - ⏭️
   - VOLUME UP
   - ←
   - ↓
