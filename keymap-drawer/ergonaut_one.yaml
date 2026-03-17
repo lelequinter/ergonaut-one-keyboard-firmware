@@ -55,30 +55,30 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ']'
+  - DELETE
   - {t: ▽, type: trans}
-  - PLAY PAUSE
+  - Gui+Sft+S
   - PREVIOUS
   - PLAY PAUSE
   - ⏭️
-  - VOLUME UP
-  - ←
-  - ↓
-  - ↑
-  - →
+  - Gui+Sft+R
   - Home
+  - ←
+  - ↑
+  - ↓
+  - →
   - End
   - {t: ▽, type: trans}
-  - ''
-  - PREVIOUS
-  - ⏭️
-  - MUTE
+  - Ctl+`
   - Vol Down
-  - DELETE
+  - MUTE
+  - Vol Up
+  - Gui+Sft+T
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Scroll ←
+  - Scroll ↑
+  - Scroll ↓
+  - Scroll →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -179,6 +179,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - KP PLUS
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP DIVIDE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -186,15 +191,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Mouse ←
-  - Mouse ↓
-  - Mouse ↑
-  - Mouse →
+  - KP MINUS
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP 0
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -202,16 +203,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Scroll ←
-  - Scroll ↓
-  - Scroll ↑
-  - Scroll →
-  - {t: ▽, type: trans}
+  - KP ASTERISK
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP COMMA
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - Left Click
-  - Middle Click
-  - Right Click
+  - {t: ▽, type: trans}
+  - KP DOT
+  - {t: ▽, type: trans}
