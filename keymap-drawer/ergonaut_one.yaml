@@ -39,7 +39,7 @@ layers:
   - {t: KP DIVIDE, h: RIGHT SHIFT}
   - LEFT WIN
   - Numbers - controls
-  - {t: ␣, h: Mouse}
+  - {t: ␣, h: Numpad}
   - ENTER
   - Symbols
   - BACKSPACE
@@ -172,7 +172,7 @@ layers:
   - ''
   - {type: held}
   - {t: ▽, type: trans}
-  Mouse:
+  Numpad:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -207,11 +207,11 @@ layers:
   - KP 7
   - KP 8
   - KP 9
-  - KP COMMA
+  - KP DOT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - KP DOT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
