@@ -55,7 +55,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - DELETE
+  - ']'
   - {t: ▽, type: trans}
   - Gui+Sft+S
   - PREVIOUS
@@ -64,8 +64,8 @@ layers:
   - Gui+Sft+R
   - Home
   - ←
-  - ↑
   - ↓
+  - ↑
   - →
   - End
   - {t: ▽, type: trans}
@@ -74,12 +74,12 @@ layers:
   - MUTE
   - Vol Up
   - Gui+Sft+T
-  - ''
+  - Ctl+Sft+Esc
   - Scroll ←
-  - Scroll ↑
   - Scroll ↓
+  - Scroll ↑
   - Scroll →
-  - {t: ▽, type: trans}
+  - DELETE
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -196,7 +196,7 @@ layers:
   - KP 5
   - KP 6
   - KP 0
-  - {t: ▽, type: trans}
+  - CALCULATOR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
