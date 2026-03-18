@@ -196,7 +196,7 @@ layers:
   - KP 5
   - KP 6
   - KP 0
-  - CALCULATOR
+  - CALC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
